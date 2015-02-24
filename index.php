@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Country Ban System
-Plugin URI: https://github.com/jzvikas/Country-Ban-System
+Plugin URI: 
 Description: Hide text/link/image in specific country.
-Version: 1.0
+Version: 1.0.1
 Author: Justinas Žvikas
-Author URI: https://github.com/jzvikas/Country-Ban-System
+Author URI: 
 */
 function cbs_block_country($attr,$content) {
 extract(shortcode_atts(array('ct'=>'ct','message'=>'message'),$attr));
